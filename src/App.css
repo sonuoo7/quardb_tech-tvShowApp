@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #101010;
+  color: #f1f1f1;
+}
+.title{
+  color: #f1f1f1;
+  font-size: 30px;
+}
+
+.show-card {
+  transition: transform 0.3s;
+}
+
+.show-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
